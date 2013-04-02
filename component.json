@@ -1,5 +1,7 @@
 {
   "name": "socket.io",
+  "repo": "lge88/socketio-client",
+  "upstream": "git://github.com/LearnBoost/socket.io-client.git",
   "version": "1.0.0",
   "dependencies": {
     "learnboost/engine.io-client": "0.4.0",
@@ -15,6 +17,9 @@
     "lib/manager.js",
     "lib/engine.js",
     "lib/socket.js",
-    "lib/emitter.js"
-  ]
+    "lib/emitter.js",
+    "lib/on.js",
+    "lib/url.js"
+  ],
+  "main": "lib/index.js"
 }
