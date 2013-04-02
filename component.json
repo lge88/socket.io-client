@@ -4,11 +4,13 @@
   "upstream": "git://github.com/LearnBoost/socket.io-client.git",
   "version": "1.0.0",
   "dependencies": {
-    "learnboost/engine.io-client": "0.4.0",
+    "learnboost/engine.io-client": "0.4.1",
     "learnboost/socket.io-protocol": "1.0.2",
     "component/emitter": "0.0.6",
     "component/bind": "0.0.1",
     "component/json-fallback": "*",
+    "component/url": "*",
+    "component/object": "*",
     "timoxley/to-array": "0.1.4",
     "visionmedia/debug": "*"
   },
